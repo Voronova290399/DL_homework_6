@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Воронова Ксения"
+  },
+  "text": {
+    "more": "Если более детально рассматривать получившийся граф, можно заметить, что визуально раф можно разделить на две наиболее выделяющиеся части, отмеченные зелёным и сиреневым цветами. Из чего можно заметить насколько плотно связаны в общении между собой люди, с которыми я училась в школе и люди, с которым я сейчас обучаюсь в университете. Так же интересно обратить внимание на плотность и частоту связей между людьми в обеих группах общения. ",
+    "intro": "Данный граф описывает связи между моими знакомыми и друзьями. Каждый узел - имя одного конкретного человека, каждое ребро, соответствующее по цвету узлу - это то, с какими людьми из числа моих знакомых связан конкретно взятый человек.",
+    "title": "Homework6"
+  },
+  "legend": {
+    "edgeLabel": "Рёбра передают связи людьми разных кругов моего общения",
+    "colorLabel": "Цвета групп обозначают людей двух основных и нескольких маленьких групп моего общения",
+    "nodeLabel": "Узлы обозначают людей из списка моих друзей в Вконтакте"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
